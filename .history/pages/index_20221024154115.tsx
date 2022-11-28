@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Banner, Commercial, Footer, Hero, Pricing, Reasons, Services, Steps } from '../components'
+import { Hero, Services, Steps } from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -13,11 +13,7 @@ const Home: NextPage = () => {
       <Hero />
       <Services />
       <Steps />
-      <Commercial />
-      <Banner/>
-      <Reasons />
-      <Pricing />
-      <Footer />
+
     
     </div>
   )

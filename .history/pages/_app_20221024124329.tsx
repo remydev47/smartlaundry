@@ -6,7 +6,7 @@ import Logo from '../components/Logo'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-    
+     <Logo />
      <Header />
      <Component {...pageProps} />
     </>

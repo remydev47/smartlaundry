@@ -1,23 +1,15 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Banner, Commercial, Footer, Hero, Pricing, Reasons, Services, Steps } from '../components'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
         <title>Smart Laundry</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
-      <Services />
-      <Steps />
-      <Commercial />
-      <Banner/>
-      <Reasons />
-      <Pricing />
-      <Footer />
+
     
     </div>
   )
